@@ -1,7 +1,7 @@
 # 🚗 Система Аренды Автомобилей (Car Rental System)
 
 <div align="center">
-  <img src="https://i.imgur.com/Q3NPJlj.png" alt="Car Rental Logo" width="300">
+  <img src="screenshots/demo.png" alt="Car Rental Logo" width="300">
   
   ![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel)
   ![PHP](https://img.shields.io/badge/PHP-^8.1-777BB4?style=for-the-badge&logo=php)
@@ -61,8 +61,8 @@
 
 1. Клонировать репозиторий:
 ```bash
-git clone https://github.com/safitfrel/car-rental-laravel.git
-cd car-rental-laravel
+git clone https://github.com/fjkefise/ehprokachy.git
+cd ehprokachy
 ```
 
 2. Установить зависимости:
@@ -110,7 +110,7 @@ php artisan serve
 ## 📁 Структура Проекта
 
 ```
-car-rental-laravel/
+ehprokachy/
 ├── app/                  # Основной код приложения
 │   ├── Http/             # Контроллеры и middleware
 │   ├── Models/           # Модели данных
@@ -142,4 +142,4 @@ npm run dev
 
 ## 👨‍💻 Автор
 
-Разработано [safitfrel](https://github.com/safitfrel)
+Разработано [fjkefise](https://github.com/fjkefise)
