@@ -79,10 +79,16 @@ class BookingController extends Controller
         $days = $startDate->diffInDays($endDate) + 1;
         $totalPrice = $car->price_per_day * $days;
 
+        // Получаем текущего пользователя
+        $user = auth()->user();
+
         // Создаем бронирование
         $booking = new Booking();
         $booking->car_id = $validated['car_id'];
         $booking->user_id = auth()->id();
+        $booking->full_name = $user->name;
+        $booking->phone = $user->phone ?? 'Не указан';
+        $booking->email = $user->email;
         $booking->start_date = $validated['start_date'];
         $booking->end_date = $validated['end_date'];
         $booking->total_price = $totalPrice;
