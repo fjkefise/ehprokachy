@@ -1,7 +1,7 @@
 # 🚗 Система Аренды Автомобилей (Car Rental System)
 
 <div align="center">
-  <img src="public/screenshots/demo.png" alt="Car Rental Logo" width="300">
+  <img src="public/screenshots/demo.png" alt="Car Rental Logo" width="3000">
   
   ![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel)
   ![PHP](https://img.shields.io/badge/PHP-^8.1-777BB4?style=for-the-badge&logo=php)
